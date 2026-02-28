@@ -36,9 +36,9 @@ const Signup = () => {
         <div className='flex flex-col items-center justify-center'>
           <div className='w-full py-6 text-center'>
             <h1 className='text-3xl font-bold'>
-              <span className='text-primary'>Admin Signup</span>
+              <span className='text-primary'>Signup</span>
             </h1>
-            <p className='font-light'>Create your admin account</p>
+            <p className='font-light'>Create your account</p>
           </div>
 
           <form onSubmit={handleSubmit} className='mt-6 w-full sm:max-w-md text-gray-600'>

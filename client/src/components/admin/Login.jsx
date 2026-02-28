@@ -35,7 +35,7 @@ const Login = () => {
         <div className='flex flex-col items-center justify-center'>
           <div className='w-full py-6 text-center'>
             <h1 className='text-3xl font-bold'>
-              <span className='text-primary'>Admin Login</span>
+              <span className='text-primary'>Login</span>
             </h1>
             <p className='font-light'>Enter your credentials to access the admin panel</p>
           </div>
