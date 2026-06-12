@@ -35,7 +35,6 @@ export const addBlog = async(req, res)=>{
 
         const image = optimizedImageUrl;
 
-        // ✅ ADD author: req.admin.id
         await Blog.create({
             title,
             subTitle,
@@ -43,7 +42,7 @@ export const addBlog = async(req, res)=>{
             category,
             image,
             isPublished,
-            author: req.admin.id   // 🔥 THIS FIXES YOUR ISSUE
+            author: req.admin.id
         });
 
         res.json({success: true, message: "Blog added successfully"})
